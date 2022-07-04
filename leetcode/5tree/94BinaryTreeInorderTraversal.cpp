@@ -48,7 +48,7 @@ public:
         if(root != nullptr)
             s.push(root);
         while (!s.empty())
-        {
+        { 
             auto node = s.top(); // 先把栈顶元素保存
             if(node != nullptr){
                 s.pop();
