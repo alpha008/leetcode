@@ -35,7 +35,6 @@ public:
             res.push_back(sum / cursize);
         }
         return res;
-        
     }
 };
 
