@@ -1,40 +1,43 @@
-100SameTree.cpp
-101Symmetrictree.cpp
-102BinaryTreeLevelOrderTraversal.cpp
-103BinaryTreeZigzagLevelOrderTraversal.cpp
-104MaximumDepthofBinaryTree.cpp
-105ConstructBinaryTreefromPreorderandInorderTraversal.cpp
-106ConstructBinaryTreefromInorderandPostorderTraversal.cpp
-107BinaryTreeLevelOrderTraversalII.cpp
-108ConvertSortedArraytoBinarySearchTree.cpp
-109ConvertSortedListtoBinarySearchTree.cpp
-110BalancedBinaryTree.cpp
-111MinimumDepthofBinaryTree.cpp
-112PathSum.cpp
-113PathSumII.cpp
-114FlattenBinaryTreetoLinkedList.cpp
-116PopulatingNextRightPointersinEachNode.cpp
-117PopulatingNextRightPointersinEachNodeII.cpp
-124BinaryTreeMaximumPathSum.cpp
-129SumRoottoLeafNumbers.cpp
-144BinaryTreePreorderTraversal.cpp
-145BinaryTreePostorderTraversal.cpp
-199binaryTreeRightSideView.cpp
-226invertTree.cpp
-236lowest-common-ancestor-of-a-binary-tree.cpp
-515findlargestvalueineachtreerow.cpp
-530minimum-absolute-difference-in-bst.cpp
-5converttreetolist.cpp
-617mergetwobinarytrees.cpp
-637levelAvgSum.cpp
-639ntreelevelorder.cpp
-654constructMaximumBinaryTree.cpp
-700searchinabinarysearchtree.cpp
-94BinaryTreeInorderTraversal.cpp
-95UniqueBinarySearchTreesII.cpp
-98isvalidsearchTree.cpp
-helpvector.h
-makefile
-readme.txt
-test.a
-tree.h
+total 168
+-rw-rw-r-- 1 ubuntu ubuntu 1477 Jun  6 23:43 100sameTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1479 Jun  6 23:43 101symmetrictree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1595 Jun  6 23:43 102BinaryTreeLevelOrderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2106 Jun  6 23:43 103BinaryTreeZigzagLevelOrderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1767 Jun  6 23:43 104maximumDepthofBinaryTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1673 Dec 26  2021 105constructBinaryTreefromPreorderandInorderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1797 Dec 26  2021 106constructBinaryTreefromInorderandPostorderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1618 Jun  6 23:43 107binaryTreeLevelOrderTraversalII.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1455 Dec 26  2021 108convertSortedArraytoBinarySearchTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2566 Dec 26  2021 109convertSortedListtoBinarySearchTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1645 Dec 26  2021 110balancedBinaryTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1602 Jun  6 23:43 111minimumDepthofBinaryTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1355 Jun  6 22:25 112pathSum.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1816 Jun  6 22:29 113pathSumII.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1735 Jun  6 23:43 114flattenBinaryTreetoLinkedList.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2583 Jun  6 23:43 116populatingNextRightPointersinEachNode.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2486 Jun  6 23:43 117populatingNextRightPointersinEachNodeII.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 3285 Dec 26  2021 124binaryTreeMaximumPathSum.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2915 Jun  6 23:43 129sumRoottoLeafNumbers.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2405 Jul  5 00:15 144BinaryTreePreorderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2398 Jul  5 00:16 145BinaryTreePostorderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1721 Jun  6 23:43 199binaryTreeRightSideView.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2366 Jun  6 23:43 226invertTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2513 Dec 26  2021 236lowestcommonancestorofabinarytree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1573 Jun  6 23:09 257binaryTreePaths.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2244 Dec 26  2021 404sumOfLeftLeaves.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 3050 Jun  3 19:41 426treeToDoublyList.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1399 Jun  6 23:43 429ntreelevelorder.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1727 Dec 26  2021 515findlargestvalueineachtreerow.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2253 Jun  6 23:43 530getMinimumDifference.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 4593 Jun  6 23:43 617mergetwobinarytrees.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2208 Jun  6 23:43 654constructMaximumBinaryTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 3035 Dec 26  2021 662widthOfBinaryTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 1870 Dec 26  2021 700searchinabinarysearchtree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2246 Jul  5 00:14 94BinaryTreeInorderTraversal.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2116 Jun  6 23:43 95uniqueBinarySearchTreesII.cpp
+-rw-rw-r-- 1 ubuntu ubuntu 2180 Dec 26  2021 98isvalidsearchTree.cpp
+-rw-rw-r-- 1 ubuntu ubuntu  487 Dec 26  2021 helpvector.h
+-rw-rw-r-- 1 ubuntu ubuntu 2617 Jun  6 23:43 list.h
+-rw-rw-r-- 1 ubuntu ubuntu  282 Dec 26  2021 makefile
+-rw-rw-r-- 1 ubuntu ubuntu    0 Jul  5 08:15 readme.txt
+-rw-rw-r-- 1 ubuntu ubuntu 2637 Jun  6 23:43 tree.h
