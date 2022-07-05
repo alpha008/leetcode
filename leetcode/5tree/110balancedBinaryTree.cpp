@@ -16,8 +16,6 @@ using namespace std;
 示例 1：
 输入：root = [3,9,20,null,null,15,7]
 输出：true
-
-来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/balanced-binary-tree
 
 

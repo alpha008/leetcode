@@ -18,7 +18,6 @@ using namespace std;
   [9,20],
   [3]
 ]
-来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii
 **********************************************************************************************************/
 class Solution {

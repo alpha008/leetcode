@@ -40,8 +40,8 @@ public:
         while(!q.empty())
         {
             int cursize = q.size();
-            Node* prev = NULL ; // 前驱节点
-            Node* cur = NULL ;  // 游标节点
+            Node* prev = NULL ; // 前驱节点 移动
+            Node* cur = NULL ;  // 游标节点 移动
             for(int i = 0; i < cursize ; i++)
             {
                 if(i == 0 ){

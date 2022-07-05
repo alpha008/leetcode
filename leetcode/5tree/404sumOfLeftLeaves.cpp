@@ -14,14 +14,8 @@ using namespace std;
   9  20
     /  \
    15   7
-
 在这个二叉树中，有两个左叶子，分别是 9 和 15，所以返回 24
-
-作者：LeetCode-Solution
 链接：https://leetcode-cn.com/problems/sum-of-left-leaves/solution/zuo-xie-zi-zhi-he-by-leetcode-solution/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-左叶子结点之和
 *****************************************************************/
 //深度优先搜索
 class Solution {
@@ -45,7 +39,6 @@ public:
         return root ? dfs(root) : 0;
     }
 };
-
 
 //广度优先搜索
 class Solution1 {
@@ -72,8 +65,8 @@ public:
                 }
             }
             if (node->right) {
-                if (!isLeafNode(node->right)) {  // 右子树 并且不是叶子结点
-                    q.push(node->right);
+                if (!isLeafNode(node->right)) {  // 如果是叶子节点，就不放了，因为不存在左叶子节点
+                    q.push(node->right); // 如果存了，会把这种叶子节点也加上了
                 }
             }
         }

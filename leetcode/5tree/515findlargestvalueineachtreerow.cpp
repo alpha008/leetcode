@@ -18,11 +18,7 @@ using namespace std;
         3   2
        / \   \  
       5   3   9 
-
-来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-根据层序遍历找出每层的最大值
 *************************************************************************************/
 class Solution {
 public:
@@ -39,7 +35,7 @@ public:
             {
                 auto node = q.front();
                 q.pop();
-                if(node->val > max) max = node->val;
+                if(node->val > max) max = node->val; // for循环内部会比较所有当前层的节点
                 if(node->left != nullptr) q.push(node->left);
                 if(node->right != nullptr) q.push(node->right);
             }

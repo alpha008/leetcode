@@ -20,7 +20,6 @@ using namespace std;
 返回它的最大深度 3 。
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 **********************************************************************************/
 class Solution {
 public:
@@ -32,7 +31,7 @@ public:
         while(!q.empty())
         {
             int cur = q.size();
-            depth ++; //  记录深度，最后返回
+            depth ++;       //记录深度，最后返回
             for(int i = 0 ; i < cur; i++)
             {
                 auto node = q.front();

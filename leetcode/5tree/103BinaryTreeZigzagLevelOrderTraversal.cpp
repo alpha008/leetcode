@@ -33,7 +33,7 @@ public:
             return ret;
         queue<TreeNode*> q;
         q.push(root);
-        bool revse = true;
+        bool flag = true;
         while (!q.empty())
         {
             int cursize = q.size();
@@ -42,17 +42,17 @@ public:
             {
                 auto node = q.front();
                 q.pop();
-                cur.push_back(node->val);
+                cur.push_back(node->val);  // 当前层所有节点
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
-            if(revse){
-                revse = false;
+            if(flag){
+                flag = false;
             }else{
-                revse = true;  // 每过一层就翻转一次
+                flag = true;  // 每过一层就翻转一次
                 reverse(cur.begin(), cur.end());
             }
-            cout << "res " << revse << endl;
+      //      cout << "res " << flag << endl;
             ret.push_back(cur);
         }
         return ret;

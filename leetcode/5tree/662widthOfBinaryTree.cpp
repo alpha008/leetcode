@@ -56,17 +56,17 @@ public:
         while(!q.empty())
         {
             int cursize = q.size();
-            int left = q.front().second; //pair的第二个位置记录当前是第几个节点 最左边结点的位置
+            int left = q.front().second; //当前层头节点的下标
             int right = 0 ;
-            for(int i = 0; i < cursize ; i ++)
+            for(int i = 0; i < cursize ; i ++)   //left 和 right 决定下一层的index下标
             {
-                auto ver = q.front().first;
+                auto node = q.front().first;
                 right = q.front().second;
-                q.pop();
-                if (ver->left != nullptr)  q.push({ver->left,  2 * right   -    2 *left }); //防止索引位置太大溢出
-                if (ver->right != nullptr) q.push({ver->right, 2 * right + 1 -  2 *left });
+                q.pop();                                         // 每层的头节点该位置index为0
+                if (node->left != nullptr)  q.push({node->left,  2 * right - 2 *left }); //防止索引位置太大溢出
+                if (node->right != nullptr) q.push({node->right, 2 * right - 2 *left + 1});
             }
-            result = max(result, right - left + 1); //计算当前层的宽度，并更新最值
+            result = max(result, right - left + 1);
         }
         return result;
     }
